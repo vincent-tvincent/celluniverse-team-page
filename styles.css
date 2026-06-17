@@ -402,7 +402,7 @@ h1 {
   }
 
   .person-card {
-    --mobile-photo-size: clamp(132px, 34vw, 176px);
+    --mobile-photo-size: clamp(150px, 39vw, 210px);
     --mobile-photo-crop: 0px;
     min-height: auto;
     grid-template-columns: var(--mobile-photo-size) minmax(0, 1fr);
