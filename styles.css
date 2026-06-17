@@ -545,6 +545,24 @@ h1 {
 
 }
 
+@media (max-width: 480px) {
+  .person-card.has-photo {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+  }
+
+  .person-card.has-photo .photo-frame {
+    width: 100%;
+    height: auto;
+    min-height: 0;
+    aspect-ratio: 1;
+  }
+
+  .person-card.has-photo .profile-photo {
+    object-fit: contain;
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
   *,
   *::before,
