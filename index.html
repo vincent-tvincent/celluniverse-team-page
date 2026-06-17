@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="CellUniverse team namecards and project repository links."
+    >
+    <title>CellUniverse Team</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main class="page-shell">
+      <header class="site-header" aria-label="CellUniverse project header">
+        <div>
+          <p class="eyebrow">UCI CellUniverse Project</p>
+          <h1>CellUniverse Team</h1>
+        </div>
+        <p class="mission-line">3D microscopy tracking, lineage analysis, and project coordination.</p>
+      </header>
+
+      <section class="cards-grid" id="people-grid" aria-label="Team namecards"></section>
+
+      <section class="repo-panel" aria-label="Project repository">
+        <div>
+          <p class="eyebrow">Project Repo</p>
+          <h2>CellUniverse</h2>
+          <p>
+            A collaborative research project exploring scalable tools for cell
+            image analysis and biological discovery.
+          </p>
+        </div>
+        <a class="repo-link" href="https://github.com/" target="_blank" rel="noreferrer">
+          <span>Open GitHub</span>
+          <span aria-hidden="true">></span>
+        </a>
+      </section>
+    </main>
+
+    <template id="person-card-template">
+      <article class="person-card">
+        <div class="rank-strip" aria-hidden="true"></div>
+        <div class="photo-frame">
+          <img class="profile-photo" alt="">
+          <div class="photo-fallback" aria-hidden="true"></div>
+        </div>
+
+        <div class="person-main">
+          <div class="person-heading">
+            <div>
+              <p class="callsign"></p>
+              <h2 class="person-name"></h2>
+            </div>
+            <span class="role-tag"></span>
+          </div>
+
+          <p class="person-title"></p>
+          <nav class="contact-links" aria-label="Profile links"></nav>
+        </div>
+      </article>
+    </template>
+
+    <script src="script.js"></script>
+  </body>
+</html>
