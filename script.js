@@ -1,9 +1,9 @@
 const people = [
   {
-    name: "Prof. Ada Chen",
+    name: "Prof. Wayne B Hayes",
     callsign: "Member 01",
     role: "Professor",
-    title: "Principal Investigator",
+    title: "Professor",
     school: "University of California, Irvine",
     photo: "",
     links: {
