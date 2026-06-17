@@ -14,17 +14,17 @@ const people = [
     }
   },
   {
-    name: "Name 1",
+    name: "Jihang Li",
     callsign: "Member 02",
     role: "MS Student",
     title: "MS Student",
     school: "University of California, Irvine",
     photo: "",
     links: {
-      github: "https://github.com/",
-      linkedin: "https://www.linkedin.com/",
-      email: "mailto:ethan@example.edu",
-      phone: "tel:+10000000001"
+      github: "https://github.com/JihangLi1121",
+      linkedin: "https://www.linkedin.com/in/jihang-li21/",
+      email: "jihangl3@uci.edu",
+      phone: "tel:+15107664360"
     }
   },
   {
