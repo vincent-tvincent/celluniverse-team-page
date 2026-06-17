@@ -5,7 +5,7 @@ const people = [
     role: "Professor",
     title: "Professor",
     school: "University of California, Irvine",
-    photo: "",
+    photo: "assets/default_profile.svg",
     links: {
       github: "https://github.com/",
       linkedin: "https://www.linkedin.com/",
@@ -47,7 +47,7 @@ const people = [
     role: "MS Student",
     title: "MS Student",
     school: "University of California, Irvine",
-    photo: "",
+    photo: "assets/yiding_wang.jpeg",
     links: {
       github: "https://github.com/",
       linkedin: "https://www.linkedin.com/",
@@ -108,8 +108,12 @@ function renderPeople() {
     const photo = card.querySelector(".profile-photo");
     const fallback = card.querySelector(".photo-fallback");
     photo.alt = `${person.name} profile photo`;
-    photo.src = person.photo;
     fallback.textContent = initialsFor(person.name);
+    photo.addEventListener("error", () => {
+      photo.removeAttribute("src");
+      card.classList.remove("has-photo");
+    });
+    photo.src = person.photo;
 
     const links = card.querySelector(".contact-links");
     contactOrder.forEach((type) => {

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" role="img" aria-label="Default profile image">
+  <rect width="800" height="800" fill="#18202a"/>
+  <path d="M170 626h460v54H170z" fill="#edf6ff" opacity=".12"/>
+  <circle cx="400" cy="306" r="118" fill="#edf6ff" opacity=".86"/>
+  <path d="M190 670c30-132 113-204 210-204s180 72 210 204" fill="#edf6ff" opacity=".86"/>
+  <path d="M62 0h34v210H62z" fill="#dc9121"/>
+  <path d="M704 590h34v210h-34z" fill="#edf6ff" opacity=".18"/>
+</svg>
