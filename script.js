@@ -19,7 +19,7 @@ const people = [
     role: "MS Student",
     title: "MS Student",
     school: "University of California, Irvine",
-    photo: "",
+    photo: "assets/jihang_li.jpeg",
     links: {
       github: "https://github.com/JihangLi1121",
       linkedin: "https://www.linkedin.com/in/jihang-li21/",
