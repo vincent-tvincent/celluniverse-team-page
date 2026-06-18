@@ -3,7 +3,7 @@ const people = [
     name: "Prof. Wayne B Hayes",
     callsign: "Member 01",
     role: "Professor",
-    title: "Professor",
+    title: "Associate Professor",
     school: "University of California, Irvine",
     photo: "assets/Hayes_Wayne.jpg",
     links: {
