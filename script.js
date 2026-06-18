@@ -53,7 +53,7 @@ const people = [
       github: "https://github.com/QAQWillQwQ",
       linkedin: "https://www.linkedin.com/in/yiding-wang-8a8254388/",
       email: "mailto:yidingw6@uci.edu",
-      phone: "tel:+10000000003"
+      phone: "tel:+15134589213"
     }
   }
 ];
@@ -74,7 +74,13 @@ function contactTextFor(type, url) {
   }
 
   if (type === "phone") {
-    return url.replace(/^tel:/i, "");
+    const digits = url.replace(/^tel:/i, "").replace(/[^0-9+]/g, "");
+    const m = digits.match(/^\+?1?(\d{10})$/);
+    if (!m) {
+      return url.replace(/^tel:/i, "");
+    }
+    const ten = m[1];
+    return `+1 (${ten.slice(0, 3)}) ${ten.slice(3, 6)}-${ten.slice(6)}`;
   }
 
   return url;
