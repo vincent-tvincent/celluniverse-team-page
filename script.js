@@ -17,8 +17,8 @@ const people = [
   {
     name: "Jihang Li",
     callsign: "Member 02",
-    role: "MS Student",
-    title: "MS Student",
+    role: "MCS Student",
+    title: "MCS Student",
     school: "University of California, Irvine",
     photo: "assets/jihang_li.jpeg",
     links: {
@@ -31,8 +31,8 @@ const people = [
   {
     name: "Yuancen Pu",
     callsign: "Member 03",
-    role: "MS Student",
-    title: "MS Student",
+    role: "MCS Student",
+    title: "MCS Student",
     school: "University of California, Irvine",
     photo: "assets/yuancen_pu.jpeg",
     links: {
@@ -45,8 +45,8 @@ const people = [
   {
     name: "Yiding Wang",
     callsign: "Member 04",
-    role: "MS Student",
-    title: "MS Student",
+    role: "MCS Student",
+    title: "MCS Student",
     school: "University of California, Irvine",
     photo: "assets/yiding_wang.jpeg",
     links: {
