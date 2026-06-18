@@ -5,12 +5,13 @@ const people = [
     role: "Professor",
     title: "Professor",
     school: "University of California, Irvine",
-    photo: "assets/default_profile.svg",
+    photo: "assets/Hayes_Wayne.jpg",
     links: {
-      github: "https://github.com/",
+      website: "https://www.cs.toronto.edu/~wayne/",
+      github: "https://github.com/waynebhayes",
       linkedin: "https://www.linkedin.com/",
-      email: "mailto:professor@example.edu",
-      phone: "tel:+10000000000"
+      email: "mailto:whayes@uci.edu",
+      phone: "tel:+1(949) 824-1753"
     }
   },
   {
@@ -24,7 +25,7 @@ const people = [
       github: "https://github.com/JihangLi1121",
       linkedin: "https://www.linkedin.com/in/jihang-li21/",
       email: "jihangl3@uci.edu",
-      phone: "tel:+15107664360"
+      phone: "tel:+1(510) 766-4360"
     }
   },
   {
@@ -38,20 +39,20 @@ const people = [
       github: "https://github.com/vincent-tvincent",
       linkedin: "https://www.linkedin.com/in/yuancen-pu-139444220/",
       email: "mailto:puv@uci.edu",
-      phone: "tel:+17746415310"
+      phone: "tel:+1(774) 641-5310"
     }
   },
   {
-    name: "Name 2",
+    name: "Yiding Wang",
     callsign: "Member 04",
     role: "MS Student",
     title: "MS Student",
     school: "University of California, Irvine",
     photo: "assets/yiding_wang.jpeg",
     links: {
-      github: "https://github.com/",
-      linkedin: "https://www.linkedin.com/",
-      email: "mailto:sofia@example.edu",
+      github: "https://github.com/QAQWillQwQ",
+      linkedin: "https://www.linkedin.com/in/yiding-wang-8a8254388/",
+      email: "mailto:yidingw6@uci.edu",
       phone: "tel:+10000000003"
     }
   }
